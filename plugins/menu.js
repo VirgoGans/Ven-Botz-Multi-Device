@@ -56,7 +56,7 @@ const defaultMenu = {
 ┆⬡ *Premium* : Ⓟ
 ┆⬡ *Uptime:* : %uptime (%muptime)
 ┆⬡ *Run Bot* : Okteto/heroku
-┆⬡ *Ig Owner* : instagram.com/oscarbotz_
+┆⬡ *Ig Owner* : https://instagram.com/imleviofc
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╭─❑ 〔 %category 〕 ❑─\n┃',
@@ -183,13 +183,13 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                               urlButton: {
                                     displayText: '𝙂𝙧𝙤𝙪𝙥 🌏',
-                                    url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+                                    url: 'https://chat.whatsapp.com/CElgl37YTIJKzugfUYIwX6'
                                 }
                                 
                             }, {
                               urlButton: {
                                     displayText: '𝙔𝙤𝙪𝙏𝙪𝙗𝙚 📺',
-                                    url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+                                    url: 'https://youtube.com/channel/UC2GOH5mCArh3E4J3sGFMC5g'
                                 }
                             }, {
                                 quickReplyButton: {

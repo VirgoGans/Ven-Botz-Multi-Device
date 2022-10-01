@@ -2,9 +2,9 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.owner = [
-  ['6285172446692'],
-  ['6285172446692'],
-  ['6285172446692', 'levi yan xhiao', true]
+  ['628227856331'],
+  ['628227856331'],
+  ['628227856331', 'virgo xhiao', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.fotonya1 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini kalo mau di ganti silahkan ganti aja
@@ -54,8 +54,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'ᴠᴇɴ-ʙᴏᴛᴢ'
-  var sticker_author = 'ʟᴇᴠɪ-ʏᴀɴ-xʜɪᴀᴏ'
+  var sticker_name = 'V-Bot'
+  var sticker_author = 'Virgo'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -72,7 +72,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = '©ᴠᴇɴ-ʙᴏᴛᴢ ♨️'
+global.wm = '©V-Bot ♨️'
 
 global.anu = 'https://telegra.ph/file/054b6fe59958df5ad6b1f.jpg'
 
